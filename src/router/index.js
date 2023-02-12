@@ -6,12 +6,7 @@ import EmployeeView from '@/components/EmployeeView'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
+
     routes: [
       {
         path: '/empview',
